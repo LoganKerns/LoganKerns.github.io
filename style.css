@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 40px; /* Large margins around the entire content */
+  padding: 200px; /* Additional padding for larger side margins */
+}
+
+.tooltip {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  color: black; /* Tooltip text color */
+}
+
+h1 {
+  margin-top: 350px;
+  margin-bottom: 400px; /* Adjusted margin-bottom */
+}
+
+#scatterplot {
+  margin-top: 20px; /* Large top margin for the scatter plot */
+}
+
+/* Styles for axis text (numbers) and tick marks */
+.axis text {
+  fill: white; /* Sets text color to white */
+}
+
+.axis line,
+.axis path {
+  stroke: white; /* Sets color of the axis lines and tick marks to white */
+}
+
+circle {
+  fill: white;
+  stroke: rgb(45, 165, 195);
+  stroke-width: 1.5px;
+}
+
+h1 img {
+  max-width: 100%; /* Adjust the percentage as needed */
+  height: auto;
+}
